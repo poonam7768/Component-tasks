@@ -1,0 +1,36 @@
+<hr>
+
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-md-6">
+            <table class="table table-bordered">
+                <thead class="bg-dark text-white">
+                    <tr>
+                    <th>sr.no</th>
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>Designation</th>
+                    <th>Department</th>
+                    <th>Salary</th>
+                    <th>isPermenent</th>
+                    <th>Email</th>
+                    <th>Contact</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let e of Employee,let i = index">
+                        <td>{{i+1}}</td>
+                        <td>{{e.empId}}</td>
+                        <td>{{e.empName}}</td>
+                        <td>{{e.designation}}</td>
+                        <td>{{e.department}}</td>
+                        <td>{{e.salary}}</td>
+                        <td>{{e.isPermanent}}</td>
+                        <td>{{e.email}}</td>
+                        <td>{{e.contact}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
