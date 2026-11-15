@@ -9,6 +9,8 @@ import { Card1Component }  from './components/card/card1/card1.component';
 import { List2Component } from './components/lists/list2/list2.component';
 import { List3Component } from './components/lists/list3/list3.component';
 import { Table2Component } from './components/table/table2/table2.component';
+import { Card2Component } from './components/card/card2/card2.component';
+import { List4Component } from './components/lists/list4/list4.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { Table2Component } from './components/table/table2/table2.component';
     Card1Component,
     List2Component,
     List3Component,
-    Table2Component
+    Table2Component,
+    Card2Component,
+    List4Component
   ],
   imports: [
     BrowserModule

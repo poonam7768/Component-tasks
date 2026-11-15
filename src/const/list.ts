@@ -12,7 +12,5 @@ export const colorsText = '10 Common Colors Used in Design';
 export const colors = ['Red', 'Blue', 'Green', 'Yellow', 'Purple', 'Orange', 'Pink', 'Black', 'White', 'Gray'];
 
 // 4 Cities
- //citiesText = 'Top 10 Cities in India You Should Know About';
- //cities = [
- // 'Mumbai', 'Delhi', 'Pune', 'Chennai', 'Hyderabad', 'Bangalore', 'Kolkata', 'Surat', 'Jaipur', 'Indore'
-//];
+ export const citiesText = 'Top 10 Cities in India You Should Know About';
+ export const cities = ['Mumbai', 'Delhi', 'Pune', 'Chennai', 'Hyderabad', 'Bangalore', 'Kolkata', 'Surat', 'Jaipur', 'Indore'];
